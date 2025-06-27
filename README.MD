@@ -101,4 +101,4 @@ You can test sending a message, and it will be saved + optionally sent to your e
 ## 🧑‍💻 Author
 
 Konrad Malinowski
-[portfolio-website.ct8.pl](http://portfolio-website.ct8.pl) • [GitHub](https://github.com/konradxmalinowski)
+[http://konradmalinowski.ct8.pl](http://konradmalinowski.ct8.pl) • [GitHub](https://github.com/konradxmalinowski)
