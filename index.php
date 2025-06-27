@@ -9,7 +9,6 @@ include 'database.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
-    <script src="app.js" defer></script>
     <title>Contact us!</title>
 </head>
 
@@ -74,7 +73,7 @@ include 'database.php';
 
                 // mail
                 $body = "Name: $name\nSurname: $surname\nEmail: $email\nMessage: $messageText";
-                $headers = "From: $email\r\nReply-To: $email\r\nContent-Type: text/plain; charset=utf-8";
+                $headers = "From: devsportal@m4linaa.ct8.pl\r\nReply-To: $email\r\nContent-Type: text/plain; charset=utf-8";
 
                 if (mail($to, $subject, $body, $headers)) {
                     echo "<p class='text-green-400'>The message has been sent!</p>";

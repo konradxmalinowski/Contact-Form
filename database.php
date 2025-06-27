@@ -1,9 +1,9 @@
 <?php
 
-define('HOST', 'localhost');
-define('USER_NAME', 'root');
-define('USER_PASS', '');
-define('DB_NAME', 'zadanie1');
+define('HOST', 'mysql.ct8.pl');
+define('USER_NAME', 'm42958_admin');
+define('USER_PASS', 'Adminadminadmin123');
+define('DB_NAME', 'm42958_zadanie1');
 
 $conn = mysqli_connect(HOST, USER_NAME, USER_PASS, DB_NAME);
 if (!$conn) {
