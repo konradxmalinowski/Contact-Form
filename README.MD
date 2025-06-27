@@ -45,9 +45,20 @@ It allows users to send messages via email and save them into a MySQL database.
 ```bash
 git clone https://github.com/yourusername/contact-form.git
 cd contact-form
-npm install
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npm install tailwindcss @tailwindcss/cli
+mkdir src
+notepad src\input.css
 ````
+
+
+**`input.css`**:
+```css
+@import 'tailwindcss';
+```
+
+```bash
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
 
 > 💡 Make sure Tailwind is building to `dist/output.css` and linked in `<head>`.
 
