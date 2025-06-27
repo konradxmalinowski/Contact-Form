@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@layer base {
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@theme {
+  --color-purple1: #3a6eff;
+  --color-purple2: #2b52c2;
+  --color-purple3: #3a6eff63;
+  --color-white: #f5f5f5;
+
+  --color-background1: #08090a;
+  --color-background2: #0e0f10;
+  --color-background3: #0a0b0c;
+}
