@@ -1,6 +1,6 @@
 # 📬 Contact Form – PHP + TailwindCSS
 
-A responsive and minimal contact form created using **PHP** (for backend + database), **TailwindCSS** (for styling), and optionally **JavaScript** (for validation).  
+A responsive and minimal contact form created using **PHP** (for backend + database), **TailwindCSS** (for styling).  
 It allows users to send messages via email and save them into a MySQL database.
 
 <br>
@@ -20,7 +20,6 @@ It allows users to send messages via email and save them into a MySQL database.
 - **HTML5**, **CSS3**, **TailwindCSS**
 - **PHP 8+**
 - **MySQL / MariaDB**
-- **JavaScript (optional validation)**
 - Works on [CT8.pl](https://ct8.pl) free hosting
 
 <br>
@@ -37,7 +36,6 @@ It allows users to send messages via email and save them into a MySQL database.
 ├── index.php                 # Main contact form + PHP logic
 ├── database.php              # MySQL connection file
 ├── save\_data.php             # (Optional) separate POST handler
-├── app.js                    # JS form validation (optional)
 ├── package.json              # Tailwind / NPM config
 └── README.md                 # This file
 
