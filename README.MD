@@ -27,8 +27,6 @@ It allows users to send messages via email and save them into a MySQL database.
 ## 📂 File Structure
 
 ```
-
-.
 ├── dist/
 │   └── output.css            # Tailwind compiled CSS
 ├── src/
@@ -38,7 +36,6 @@ It allows users to send messages via email and save them into a MySQL database.
 ├── save\_data.php             # (Optional) separate POST handler
 ├── package.json              # Tailwind / NPM config
 └── README.md                 # This file
-
 ````
 
 <br>
