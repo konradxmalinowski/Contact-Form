@@ -3,7 +3,7 @@
 A responsive and minimal contact form created using **PHP** (for backend + database), **TailwindCSS** (for styling), and optionally **JavaScript** (for validation).  
 It allows users to send messages via email and save them into a MySQL database.
 
----
+<br>
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@ It allows users to send messages via email and save them into a MySQL database.
 - ✅ Responsive Tailwind CSS design  
 - ✅ Minimalistic UI
 
----
+<br>
 
 ## 🛠 Technologies Used
 
@@ -23,7 +23,7 @@ It allows users to send messages via email and save them into a MySQL database.
 - **JavaScript (optional validation)**
 - Works on [CT8.pl](https://ct8.pl) free hosting
 
----
+<br>
 
 ## 📂 File Structure
 
@@ -43,7 +43,7 @@ It allows users to send messages via email and save them into a MySQL database.
 
 ````
 
----
+<br>
 
 ## 📦 Installation
 
@@ -56,7 +56,7 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 > 💡 Make sure Tailwind is building to `dist/output.css` and linked in `<head>`.
 
----
+<br>
 
 ## 🔌 Database Setup
 
@@ -81,7 +81,7 @@ define('USER_PASS', 'your_db_pass');
 define('DB_NAME', 'your_db_name');
 ```
 
----
+<br>
 
 ## 📤 Email Setup
 
@@ -89,20 +89,14 @@ Make sure the `mail()` function is enabled on your server.
 Alternatively, replace it with **PHPMailer** for SMTP support (e.g., Gmail).
 
 
----
+<br>
 
 ## 📧 Demo
 
-**Live preview:** *[contact-form.ct8.pl](http://contact-form.ct8.pl)* (if deployed)
+**Live preview:** *[contact-form.ct8.pl](http://contact-form.ct8.pl)*
 You can test sending a message, and it will be saved + optionally sent to your email.
 
----
-
-## ⚠️ License
-
-MIT – use it freely, no credit required (but appreciated 😊)
-
----
+<br>
 
 ## 🧑‍💻 Author
 
